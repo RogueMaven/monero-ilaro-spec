@@ -26,6 +26,15 @@ The ability to plug a USB stick into any computer and temporarily turn it into a
 ***Technical summary:***
 The source code of the Ilaro project creates a bootable ISO image of a Linux operating system customized for using Monero. An additional core component of the Ilaro project is a robust terminal user interface (TUI) system. Familiar UI concepts like button clicks, application windows, scrolling and other mouse events are emulated within the context of a CLI terminal.
 
+### Screenshots
+#### BIOS boot loader
+![ilaro-boot-isolinux](https://user-images.githubusercontent.com/95149405/145515055-c57d0a80-39b5-43c3-bccd-d5d919f76276.png)
+#### EFI boot loader
+![ilaro-boot-grub2](https://user-images.githubusercontent.com/95149405/145515283-4ad5f9be-e0b7-4353-bcb3-e0fbad780f53.png)
+#### CLI prompt after startup
+![ilaro-monerOS-linux](https://user-images.githubusercontent.com/95149405/145515202-229ebcd3-607a-4558-9466-fb0ec67b7bb8.png)
+
+
 ### Platform Details
 - Customized Alpine Linux distro with APK package system.
 - Does not require a hard drive. Allows for *motherboard-only* mining rigs.
