@@ -21,7 +21,7 @@ This document serves to describe the goals of the Ilaro project and its potentia
 ## So What Is Ilaro?
 
 ***Basic summary:***
-The ability to plug a USB stick into any computer and temporarily turn it into an XMR miner, p2pool node, and/or monero blockchain node. A simple reboot and the computer is returned back to normal.
+The ability to plug a USB stick into any computer and temporarily turn it into an XMR miner, p2pool node, and/or monero blockchain node. A simple reboot and the computer is returned back to normal. Current and future applications essential to using Monero will be included in this toolkit (Ilaro).
 
 ***Technical summary:***
 The source code of the Ilaro project creates a bootable ISO image of a Linux operating system customized for using Monero. An additional core component of the Ilaro project is a robust terminal user interface (TUI) system. Familiar UI concepts like button clicks, application windows, scrolling and other mouse events are emulated within the context of a CLI terminal.
@@ -66,11 +66,24 @@ The source code of the Ilaro project creates a bootable ISO image of a Linux ope
 - (WiP) Monerod service node interface
 - (TBD) Graphs & charts
 
-#### TUI Demo Application
+#### TUI Application Screenshot
+*The user interface depicted below is constructed entirely out of text/unicode characters. It is a C++ compiled app running in default shell.*
 ![TUI-app-demo](https://user-images.githubusercontent.com/95149405/145515881-c4f50a7d-34d3-40c7-b3cd-4b33b0acaaed.png)
 
 
 ### Future stuff
 - Tor (for sure)
 - PXE network bootloader (maybe)
-- DEX platform??? Haveno integration? (not even sure exactly what this means, or could mean, but I would relish the opportunity to attempt something)
+- DEX node??? Haveno integration? (not even sure exactly what this means, or could mean, but I would relish the opportunity to attempt something)
+
+#### Other possibilities
+- Use case specific "flavors". USB kit just for merchants.
+- If there was enough Ilaro users then a uniquely Monero Tor protocol-variant could be devised.
+- Users could opt-in to share their Monero blockchain DB with other Ilaro users. Those that share DB would get hashrate "fees" from connected clients.
+
+## I Want to Support This
+*Donate to help support the on-going development of Monero Ilaro.*
+
+![ilaro-donation-qr](https://user-images.githubusercontent.com/95149405/145619230-60c5ce06-04ad-4de6-96d8-373034bae675.png)
+
+Address: 44WPNtdw2MAN9LerVnPE6G2UssvPfq3KJEEi9gn77xMYdLNJb4GSbcgfg2PCudG7eiMnJmxnWg1YpJTXMziLEaQSCuZFht5
